@@ -1,0 +1,478 @@
+#section1 {
+  height: 760px;
+}
+ul:hover{
+  background-color: rgba(0,0,0,0.5);
+}
+ul {
+  transition:0.4s background-color;
+  list-style-type: none;
+  margin:0px 0px;
+  padding: 0;
+  text-align:center;
+position: fixed;
+width: 100%; 
+  z-index: 1;
+
+}
+.bg-image{
+background-image:url("imag.jpg");
+height: 100%; 
+margin-top:-35px ;
+padding-bottom: 100px;
+background-repeat: no-repeat;
+ background-size: cover;
+position: fixed;
+width: 100%; 
+z-index: -1;
+}
+
+body, html {
+  background-color: rgba(0,0,0,0.4);
+  height: 100%;
+  margin: -10px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+li{
+  float: right; 
+}
+
+li a {
+  transition:1s background-color;
+  display: block;
+  color: white;
+margin: 10px 2px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#hi{
+padding-left:100px;
+color:white;
+}
+
+
+li a:hover {
+background-color: orange;
+}
+
+
+.hh0{
+  color: rgb(0, 0, 0);
+  margin-top:250px;
+  margin-bottom:-50px;
+margin-left: 580px;
+width:280px;
+border-radius: 29px;
+opacity:0.09; 
+border: none;
+height: 40px ;
+font-size:18px;
+font-family:Elephant;
+}
+
+#hh1{
+
+padding-top:-70px;
+text-align:center;
+color:white;
+font-family: calibri;
+font-size:45px;
+}
+
+#hh2{
+  margin-top: -20px;
+padding-left:385px;
+color:white;
+font-family: "Sitka Text";
+font-size: 20px;
+}
+
+#getbutt{
+  transition:0.7s background-color;
+color:white;
+ margin: 0px 635px;
+border-radius: 23px;
+background-color: transparent;
+  border-color: white;
+  padding: 9px ;
+  width:150px;
+  font-size: 15px;
+}
+
+#getbutt:hover{background-color: orange;
+}
+
+.dropbtn {
+  transition:1s background-color;
+margin:7px;
+background-color: rgba(0,0,0,0);
+border:1px soild #000;
+  color:#fff;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: none;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  transition:1s background-color;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: orange}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: orange;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+#gsa{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+#section2 {
+padding-top:100px;
+text-align:center;
+color:black;
+  height: 500px;
+  background-color: rgb(212, 237, 241);
+  
+}
+.demo{
+background-color: rgb(241, 227, 229);
+color: red;
+border-radius: 20px;
+border:none;
+width: 80px;
+padding: 8px;
+
+}
+.demo1:hover{
+  background-color: red;
+}
+.demo1{
+  transition:1s background-color;
+ margin-top: 20px;
+ border-radius: 20px;
+ width:130px;
+ padding:8px;
+ border:none;
+ 
+}
+#lma{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+#section3 {
+padding-top:100px;
+text-align:center;
+color:black;
+  height: 600px;
+  background-color: rgb(212, 237, 241);
+}
+
+.demo2{
+  width: 100px;
+  background-color:  rgb(241, 227, 229);
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+.box:hover{
+ background-color: #3498db;
+}
+.box {
+  margin-top: -300px;
+	margin-left:30px;
+	margin-right:30px;
+  width: 290px;
+  height: 270px;
+ transition:1s background-color;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: Arial Rounded MT;
+}
+img{
+	max-width:60px;
+	margin-bottom:10px;
+}
+
+
+#section4 {
+  
+    height: 25px;
+
+  }
+
+
+#section5{
+  height: 180px;
+  }
+  
+  .s5h{
+    color:white;
+   
+  }
+.s5p{
+  font-size: 18px;
+}
+
+.s5b:hover{
+  background-color: rgb(248, 88, 149);
+}
+.s5b{
+  transition: 1s background-color;
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+background-color: transparent;
+border-color: white;
+color:white;
+  font-size: 15px;
+ }
+
+#s5a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+  #section6{
+    height: 730px;
+    background-color: rgb(212, 237, 241);
+    }
+
+    .demo3{
+      width: 80px;
+      margin-top: 70px;
+    }
+    .container1 {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 100vh;
+    }
+  
+    .box1 {
+      margin-top: -300px;
+      margin-left:30px;
+      margin-right:30px;
+      width: 290px;
+      height: 310px;
+      color: black;
+      text-align: center;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    
+    .img1{
+      max-width:100%;
+      margin-bottom:10px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+    .s6h{
+      margin-top: -30px;
+   
+    }
+    .s6h,.s6p{
+      background-color: white;
+      padding: 7px;
+    }
+    .s6p{
+      margin-top: -25px;
+      font-size: 12px;
+    }
+
+    .logo-container{
+      display:flex;
+      justify-content: center;
+      
+      padding: 10px;
+      margin-top: -45px;
+    }
+    
+    .logos1:hover{
+      background-color: pink;
+    }
+
+    .logos1{
+      transition: 1s background-color;
+      width: 25px;
+      margin-top: -20px;
+      padding-bottom: 3px;
+      background-color:white;
+      opacity: 0.5;
+    }
+    .logos1:hover{
+      opacity: 1.5;
+    }
+
+
+    #section7{
+      margin-top: -30px;
+      height: 700px;
+      background-color: rgb(212, 237, 241);
+      } 
+
+      .demo4{
+        margin-top: 10px;
+        width: 95px;
+      }
+
+      .s7p{
+        font-size: 18px;
+      }
+
+      .s7h{
+        float: left;
+        margin-top: -1px;
+       padding-left: 15px;
+      }
+
+      .locimg{
+        padding-top:8px;
+        width: 30px;
+        justify-content: center;
+      }
+
+      .logobut:hover{
+        background-color: rgb(243, 84, 84);
+      }
+
+      .logobut{
+        margin-top: 1px;
+        margin-left:40px;
+        float: left;
+        width: 50px;
+        height:50px;
+        border-radius: 100px;
+        justify-content: center;
+        border:none;
+        
+        transition: 1s background-color;
+      }
+      .s7loc{
+       margin-left: -135px;
+       font-size: 12px;
+       
+      }
+      .logobut1{
+      margin-left: -310px;
+      margin-top: 50px;
+      }
+      .s7h1{
+        margin-top: 50px;
+        margin-left: -260px;
+      }
+      .s7loc1{
+        margin-top: 85px;
+        margin-left: -1100px;
+      }
+
+      .logobut2{
+        margin-top: 50px;
+      }
+      .s7h2{
+        margin-top: 50px;
+      }
+      .s7loc2{
+        margin-top:90px;
+        margin-left: -70px;
+      }
+      .textbox1{
+        margin-top:-300px;
+        margin-left: 70px;
+        width:500px;
+        height: 35px;
+        border-color: rgb(126, 119, 119);
+        background-color: rgb(212, 237, 241);
+        font-size: 17px;
+      }
+      .textbox2{
+        margin-left:10px;
+      }
+      .textbox3{
+        margin-top:25px;
+        width: 1023px;
+      }
+      .textarea{
+        margin-left: 65px;
+        background-color:rgb(212, 237, 241) ;
+        font-size: 17px;
+      }
+
+      .s7b:hover{
+        background-color: rgb(255, 0, 43);
+      }
+      .s7b{
+        background-color: rgb(243, 66, 95);
+        border-color:white;
+        margin-left:300px;
+        margin-top: 30px;
+        transition: 1s background-color;
+        width: 160px;
+        height: 40px;
+        border-radius: 20px;
+        border-color: white;
+        color:white;
+        font-size: 15px;
+      }
+      #s7a{
+        text-decoration: none;
+        color: inherit;
+      }
+
+      
